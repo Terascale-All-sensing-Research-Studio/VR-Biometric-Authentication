@@ -4,6 +4,8 @@ This dataset consists of virtual reality (VR) motions of 41 subjects recorded ov
 
 # Dataset Specifics
 
+![This is an image of the VR Motions plotted for one user session](/assets/images/Throws.png)
+
 ## VR Motions
 The VR motions are provided in two forms: the recordings saved from the VR environment as well as a preprocessed numpy file. 
 
@@ -22,9 +24,12 @@ Example Indexing:
 
 ## Profile Videos
 
+![This is an GIF of a user performing a throw](/assets/images/Throwing.gif)
+
 ### Recordings: [Fill In]
 
-### Cropped & Trimmed: [Fill In]
+### [Cropped & Trimmed:](https://drive.google.com/file/d/1-kLEVVFR1prEih6dSZqfrxqK7pNDejFW/view?usp=sharing)
+
 
 
 [^1]: Prior Study Link
