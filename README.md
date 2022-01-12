@@ -5,7 +5,7 @@ Biometric authentication work done at TARS lab.
 
 # ETA
 Code - Accepted Papers - 1/12/22  
-Code - Set up & running - 1/12/22
+Code - Set up & running - 1/12/22  
 Dataset - VR device motions numpy files ✔️  
 Dataset - VR device motions - ✔️  
 Code - VR device motion viewer - 1/14/22  
