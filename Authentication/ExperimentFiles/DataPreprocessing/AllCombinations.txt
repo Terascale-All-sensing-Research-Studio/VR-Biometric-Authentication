@@ -1,0 +1,61 @@
+--Fold--
+ExperimentFolds|5Fold.txt
+ExperimentFolds|10Fold.txt
+
+
+--TrainingSessionCombinations--
+Quest1  | Quest2
+Vive1   | Vive2
+Cosmos1 | Cosmos2
+
+Quest1  | Cosmos1 
+Quest1  | Cosmos2
+Quest2  | Cosmos1 
+Quest2  | Cosmos2
+
+Quest1  | Vive1 
+Quest1  | Vive2
+Quest2  | Vive1 
+Quest2  | Vive2
+
+Vive1   | Cosmos1 
+Vive1   | Cosmos2
+Vive2   | Cosmos1 
+Vive2   | Cosmos2
+
+--TestingSessionCombinations--
+<>
+
+--PreSmooth--
+0
+1
+2
+--DataProcessing--
+NormalizeCenterDevices
+CenterSystem
+NormalizeSystem
+--PostSmooth--
+0
+
+--Features--
+rp|ro|lp|lo|hp|ho
+rp|ro|lp|lo|hp|ho|rd
+rp|ro|lp|lo|hp|ho|ld
+rp|ro|lp|lo|hp|ho|cd
+rp|ro|lp|lo|hp|ho|rd|ld
+rp|ro|lp|lo|hp|ho|rd|cd
+rp|ro|lp|lo|hp|ho|ld|cd
+rp|ro|lp|lo|hp|ho|rd|ld|cd
+rp|ro|lp|lo|hp|ho|bb_lh|bb_hl|bb_rh
+
+--TrainingEpochs--
+4
+5
+9
+10
+
+--BatchSize--
+128
+
+--OutputDirectory--
+DataPreprocessing

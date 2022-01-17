@@ -1,0 +1,31 @@
+--Fold--
+ExperimentFolds|<>-41Fold.txt
+
+--TrainingSessionCombinations--
+Vive1 | Vive2
+Quest1 | Quest2
+Cosmos1 | Cosmos2
+
+--TestingSessionCombinations--
+<>
+
+--PreSmooth--
+0
+
+--DataProcessing--
+NormalizeCenterDevices
+
+--PostSmooth--
+0
+
+--Features--
+rp|ro|lp|lo|hp|ho
+
+--TrainingEpochs--
+25
+
+--BatchSize--
+128
+
+--OutputDirectory--
+ShortTimescale

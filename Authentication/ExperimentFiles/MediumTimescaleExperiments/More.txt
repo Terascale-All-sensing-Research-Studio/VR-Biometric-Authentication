@@ -1,0 +1,41 @@
+--Fold--
+ExperimentFolds|TimeFolds|<>-More41Fold.txt
+
+--TrainingSessionCombinations--
+Vive1 | Vive2
+
+Quest1 | Cosmos1
+Quest1 | Cosmos2
+Quest2 | Cosmos1
+Quest2 | Cosmos2
+
+Vive1  | Cosmos1
+Vive1  | Cosmos2
+Vive2  | Cosmos1
+Vive2  | Cosmos2
+
+--TestingSessionCombinations--
+<>
+
+--PreSmooth--
+0
+
+--DataProcessing--
+NormalizeCenterDevices
+
+--PostSmooth--
+0
+
+--Features--
+rp|ro|lp|lo|hp|ho
+
+--TrainingEpochs--
+50
+55
+60
+
+--BatchSize--
+128
+
+--OutputDirectory--
+MediumTimescaleMore

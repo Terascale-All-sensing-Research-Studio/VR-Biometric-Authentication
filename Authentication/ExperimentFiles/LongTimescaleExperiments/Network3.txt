@@ -1,0 +1,33 @@
+--Fold--
+ExperimentFolds|Prior41Fold.txt
+
+--TrainingSessionCombinations--
+Prior1 | Vive1 
+
+--TestingSessionCombinations--
+Prior1 | Vive1
+Prior1 | Vive2
+Vive1 | Vive2
+
+--PreSmooth--
+0
+
+--DataProcessing--
+NormalizeCenterDevices
+
+--PostSmooth--
+0
+
+--Features--
+rp|ro|lp|lo|hp|ho
+
+--TrainingEpochs--
+20
+23
+25
+
+--BatchSize--
+128
+
+--OutputDirectory--
+LongTimescaleNetwork3
