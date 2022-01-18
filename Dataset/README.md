@@ -26,7 +26,7 @@ Example Indexing:
 
 ![This is an GIF of a user performing a throw](/assets/images/Throwing.gif)
 
-### Recordings: [Fill In]
+### [Recordings](https://drive.google.com/file/d/19rfK3Iohhn4T4LMINLFXP7h7jQxl7NQs/view?usp=sharing)
 
 ### [Cropped & Trimmed:](https://drive.google.com/file/d/1-kLEVVFR1prEih6dSZqfrxqK7pNDejFW/view?usp=sharing)
 The video recordings have been manually trimmed to ~roughly~ align with the recorded VR motions. Each directory provided corresponds to a single session of one subject which can be identified by the directory name as "UserID_System_Session". Each directory has 10 `.mp4` files corresponding to the 10 throws the user took each lasting 3 seconds. The videos have been cropped so all videos have the same resolution and that no part of the subject goes out of frame. *Generally* subjects stood closer to the camera when using the HTC Cosmos, so the frame is filled more for those sessions. 
