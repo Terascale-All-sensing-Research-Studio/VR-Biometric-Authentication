@@ -86,8 +86,30 @@ The sub-directory `DataPreprocessing` in `ExperimentFiles` has the experiment us
 | --CompiledOutputDirectory-- | Determines where to write the results when compiled across different folds |
 | --DatasetDir-- | Where the dataset is. By default it should be okay. |
 
-[^1]: Prior Study Link
-[^2]: Prior Study Link
+### If you use the dataset in publications, please cite the following paper(s):
+```
+@inproceedings{miller2022temporal,
+  title={Temporal Effects in Motion Behavior for Virtual Reality (VR) Biometrics},
+  author={Miller, Robert and Banerjee, Natasha Kholgade and Banerjee, Sean},
+  booktitle={2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  pages={563--572},
+  year={2022},
+  organization={IEEE}
+}
+```
+```
+@inproceedings{miller2022combining,
+  title={Combining Real-World Constraints on User Behavior with Deep Neural Networks for Virtual Reality (VR) Biometrics},
+  author={Miller, Robert and Banerjee, Natasha Kholgade and Banerjee, Sean},
+  booktitle={2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  pages={409--418},
+  year={2022},
+  organization={IEEE}
+}
+```
+
+[^1]: [Temporal Study](https://ieeexplore.ieee.org/abstract/document/9756745)
+[^2]: [Spatial Study](https://ieeexplore.ieee.org/abstract/document/9756791)
 
 
 

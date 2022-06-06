@@ -31,5 +31,30 @@ Example Indexing:
 ### [Cropped & Trimmed:](https://drive.google.com/file/d/1-kLEVVFR1prEih6dSZqfrxqK7pNDejFW/view?usp=sharing)
 The video recordings have been manually trimmed to ~roughly~ align with the recorded VR motions. Each directory provided corresponds to a single session of one subject which can be identified by the directory name as "UserID_System_Session". Each directory has 10 `.mp4` files corresponding to the 10 throws the user took each lasting 3 seconds. The videos have been cropped so all videos have the same resolution and that no part of the subject goes out of frame. *Generally* subjects stood closer to the camera when using the HTC Cosmos, so the frame is filled more for those sessions. 
 
+### [Traces of right hand controller:](https://drive.google.com/file/d/1rSFQNxkAwOfEtctA6Mfyp2ahMZU-2-ak/view?usp=sharing)
+The bright right-hand controllers of the Cosmos system were traced from the videos to give a 2D representation of the motions each subject made while performing the task.
 
-[^1]: Prior Study Link
+
+### If you use the dataset in publications, please cite the following paper(s):
+```
+@inproceedings{miller2022temporal,
+  title={Temporal Effects in Motion Behavior for Virtual Reality (VR) Biometrics},
+  author={Miller, Robert and Banerjee, Natasha Kholgade and Banerjee, Sean},
+  booktitle={2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  pages={563--572},
+  year={2022},
+  organization={IEEE}
+}
+```
+```
+@inproceedings{miller2022combining,
+  title={Combining Real-World Constraints on User Behavior with Deep Neural Networks for Virtual Reality (VR) Biometrics},
+  author={Miller, Robert and Banerjee, Natasha Kholgade and Banerjee, Sean},
+  booktitle={2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  pages={409--418},
+  year={2022},
+  organization={IEEE}
+}
+```
+
+[^1]: [Combining Pairwise Feature Matches from Device Trajectories for Biometric Authentication in Virtual Reality Environments](https://www.computer.org/csdl/proceedings-article/aivr/2019/560400a009/1grOjN5WyhW)
