@@ -4,9 +4,6 @@ Biometric authentication work done at TARS lab.
 ## Authentication Directory
 Code for training and testing Siamese networks to perform authentication based on subjects' behaviour.
 
-## Dataset Directory
-Links to download the recorded motions subjects made in VR and video recordings of the subject performing the task. 
-
 ### If you use the dataset in publications, please cite the following paper(s):
 ```
 @inproceedings{miller2022temporal,
